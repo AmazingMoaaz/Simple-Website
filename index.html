@@ -1,215 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- Meta Information -->
     <meta charset="UTF-8" />
-    <title>My Tea Shop</title>
-    <meta name="description" content="Welcome to our tea shop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tea Shop | Exceptional Tea Experience</title>
+    <meta name="description" content="Experience the finest selection of artisanal teas at My Tea Shop. Discover our handpicked collection of premium loose-leaf teas and unique blends." />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-
-    <section>
-      <h2>🙂🙂🙂🙂</h2>
-      <img src="./lol.jpg" alt="Tea Cup" />
-    </section> 
-
-    <!-- Welcome Section -->
-    <section>
-      <h1>Welcome to Our Tea Shop</h1>
-      <p>Discover the finest teas from around the world</p>
-    </section>
-
-    <!-- Headings Section -->
-    <section>
-      <h2>Our Tea Selection</h2>
-      <h3>Green Tea</h3>
-      <h4>Benefits</h4>
-      <h5>Rich in Antioxidants</h5>
-      <h6>Boosts Metabolism</h6>
-      <h3>Black Tea</h3>
-      <h4>Benefits</h4>
-      <h5>Strong Flavor</h5>
-      <h6>Improves Focus</h6>
-    </section>
-
-    <!-- Semantic Elements Section -->
-    <section>
-      <h2>Semantic Elements</h2>
-      <header>
-        <h1>Header Section</h1>
-        <p>Welcome to our tea shop</p>
-      </header>
-        <nav>
-            <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#products">Our Products</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-      <article>
-        <h2>Article Title</h2>
-        <p>This is an article section about tea.</p>
-      </article>
-      <footer>
-        <p>Footer Section</p>
-      </footer>
-    </section>
-
-  <!-- Audio Section -->
-  <section>
-      <h2>Audio</h2>
-      <audio controls>
-        <source src="tea-audio.mp3" type="audio/mpeg" />
-      </audio>
-  </section>
-    
-    <!-- Video Section -->
-    <section>
-      <h2>Video</h2>
-      <video controls width="300">
-        <source src="tea-video.mp4" type="video/mp4" />
-      </video>
-    </section>
-
-    <!-- Images Section -->
-    <section>
-      <h2>Images</h2>
-      <img src="./tea-cup.jpg" alt="Tea Cup" />
-    </section>
-
-    <!-- Forms Section -->
-    <section>
-      <h2>Order Form</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <br />
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
-        <br />
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" />
-        <br />
-        <label for="birthdate">Birthdate:</label>
-        <input type="date" id="birthdate" name="birthdate" />
-        <br />
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color" name="color" />
-        <br />
-        <label for="file">Upload File:</label>
-        <input type="file" id="file" name="file" />
-        <br />
-        <label for="bio">Bio:</label>
-        <textarea id="bio" name="bio"></textarea>
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
-    </section>
-
-
-
-    <!-- Text Formatting Section -->
-    <section>
-      <h2>Text Formatting</h2>
-      <p><strong>Bold Text:</strong> <span style="font-weight: bold;">Tea is a popular beverage.</span></p>
-      <p><em>Italic Text:</em> <span style="font-style: italic;">Tea can be enjoyed hot or cold.</span></p>
-      <p><mark>Highlighted Text:</mark> <span style="background-color: yellow;">Green tea is rich in antioxidants.</span></p>
-      <p><del>Deleted Text:</del> <span style="text-decoration: line-through;">Black tea is not as healthy as green tea.</span></p>
-      <p><ins>Inserted Text:</ins> <span style="text-decoration: underline;">Herbal teas are caffeine-free.</span></p>
-      <p>H<sub>2</sub>O is essential for brewing tea. <span style="vertical-align: sub;">Subscript Text</span></p>
-      <p>The boiling point of water is 100°C<sup>2</sup>. <span style="vertical-align: super;">Superscript Text</span></p>
-    </section>
-
-    <!-- Lists Section -->
-    <section>
-      <h2>Lists</h2>
-      <h3>Unordered List</h3>
-      <ul>
-        <li>Green Tea</li>
-        <li>Black Tea</li>
-        <li>
-          Herbal Tea
+    <div class="container">
+      <!-- Navigation -->
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="./assets/lol.jpg" alt="My Tea Shop Logo" />
+          </div>
           <ul>
-            <li>Chamomile</li>
-            <li>Peppermint</li>
-            <li>Rooibos</li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Our Collection</a></li>
+            <li><a href="#experience">Tea Experience</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Order Now</a></li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </nav>
 
-      <h3>Ordered List</h3>
-      <ol start="1"></ol>
-      <ol start="1">
-        <li>Tea ID</li>
-        <li>Tea Name</li>
-        <li>Origin</li>
-      </ol>
-      <h3>Description List</h3>
-      <dl>
-        <dt>Green Tea</dt>
-        <dd>Rich in antioxidants</dd>
-        <dt>Black Tea</dt>
-        <dd>Strong and bold flavor</dd>
-      </dl>
-    </section>
+      <!-- Welcome Section -->
+      <section id="about">
+        <h1>My Tea Shop</h1>
+        <p>Step into a world of exceptional teas, where tradition meets modern luxury. Our carefully curated collection brings you the finest loose-leaf teas from renowned tea gardens across the globe.</p>
+      </section>
 
+      <!-- Tea Selection -->
+      <section id="products">
+        <h2>Our Signature Collection</h2>
+        <div class="tea-types">
+          <article>
+            <h3>Premium Green Tea</h3>
+            <h4>Health Benefits</h4>
+            <ul>
+              <li>Rich in powerful antioxidants</li>
+              <li>Enhances metabolism naturally</li>
+              <li>Supports mental clarity</li>
+              <li>Promotes healthy skin</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Artisanal Black Tea</h3>
+            <h4>Distinctive Qualities</h4>
+            <ul>
+              <li>Full-bodied, robust flavor</li>
+              <li>Natural energy boost</li>
+              <li>Perfect morning companion</li>
+              <li>Traditional craftsmanship</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Signature Herbal Blends</h3>
+            <h4>Natural Benefits</h4>
+            <ul>
+              <li>100% caffeine-free</li>
+              <li>Calming properties</li>
+              <li>Aids peaceful sleep</li>
+              <li>Seasonal ingredients</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-    <!-- Tables Section -->
-    <section>
-      <h2>Tables</h2>
-      <table border="1">
-      <caption>
-        Tea Prices
-      </caption>
-      <thead>
-        <tr>
-        <th>Tea Name</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-        <td>Green Tea</td>
-        <td>$10</td>
-        <td>50g</td>
-        <td>Rich in antioxidants</td>
-        </tr>
-        <tr>
-        <td>Black Tea</td>
-        <td>$8</td>
-        <td>50g</td>
-        <td>Strong and bold flavor</td>
-        </tr>
-        <tr>
-        <td>Herbal Tea</td>
-        <td>$12</td>
-        <td>50g</td>
-        <td>Calming and soothing</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-        <td colspan="3">Total</td>
-        <td>$30</td>
-        </tr>
-      </tfoot>
-      </table>
-    </section>
-    
-        <!-- Links Section -->
-        <section>
-          <h2>Links</h2>
-          <p>
-            Visit
-            <a href="https://google.com" target="_blank" title="Go To Google"
-              >Google</a
-            >.
-          </p>
+      <!-- Media Section -->
+      <section id="experience">
+        <h2>Tea Experience</h2>
+        <div class="media-grid">
+          <div class="video-container">
+            <video controls width="100%">
+              <source src="./assets/tea-video.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+          </div>
+          <div class="image-container">
+            <img 
+              src="./assets/tea-cup.jpg" 
+              alt="An elegantly presented cup of premium tea with steam rising"
+            />
+          </div>
+        </div>
+        <div class="music-player">
+          <h3>Tea Ceremony Music</h3>
+          <div class="playlist">
+            <div class="track">
+              <p style="color: cyan;">Traditional Tea Ceremony</p>
+              <audio controls>
+                <source src="./assets/tea-audio.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Price List -->
+      <section id="pricing">
+        <h2>Premium Tea Selection</h2>
+        <table>
+          <caption>Current Collection and Pricing</caption>
+          <thead>
+            <tr>
+              <th>Variety</th>
+              <th>Origin</th>
+              <th>Price</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Premium Green Tea</td>
+              <td>Uji, Japan</td>
+              <td>$22</td>
+              <td>Hand-picked spring harvest</td>
+            </tr>
+            <tr>
+              <td>Artisanal Black Tea</td>
+              <td>Darjeeling, India</td>
+              <td>$18</td>
+              <td>First flush, full-bodied</td>
+            </tr>
+            <tr>
+              <td>Signature Herbal Blend</td>
+              <td>Alps, Switzerland</td>
+              <td>$20</td>
+              <td>Organic mountain herbs</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Minimum Order</td>
+              <td>50g</td>
+              <td>Free shipping over $60</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- Order Form -->
+      <section id="contact">
+        <h2>Place Your Order</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="tea-type">Select Your Tea</label>
+            <select id="tea-type" name="tea-type" required>
+              <option value="">Choose a variety</option>
+              <option value="green">Premium Green Tea</option>
+              <option value="black">Artisanal Black Tea</option>
+              <option value="herbal">Signature Herbal Blend</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity (g)</label>
+            <input type="number" id="quantity" name="quantity" min="50" step="50" value="50" required />
+          </div>
+          <div class="form-group">
+            <label for="notes">Special Instructions</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Any specific preferences or requests?"></textarea>
+          </div>
+          <input type="submit" value="Place Order" />
+        </form>
+      </section>
+    </div>
   </body>
-  </html>
-  
+</html>
